@@ -31,6 +31,7 @@ class _LoginState extends State<Login> {
     height = MediaQuery.of(context).size.height;
     return SingleChildScrollView(
       child: Container(
+        
         padding: const EdgeInsets.symmetric(horizontal: 15.0),
         child: Column(
           mainAxisSize: MainAxisSize.max,
