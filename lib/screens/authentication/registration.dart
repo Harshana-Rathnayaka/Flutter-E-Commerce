@@ -62,7 +62,7 @@ class _RegistrationState extends State<Registration> {
             ),
             SizedBox(height: 8.0),
             Form(
-              key: _formKey, 
+              key: _formKey,
               child: Column(
                 children: [
                   SizedBox(
@@ -240,7 +240,8 @@ class _RegistrationState extends State<Registration> {
       'uid': user.uid,
       'email': user.email,
       'name': _nameTextEditingController.text.trim(),
-      'imageUrl': userImageUrl
+      'imageUrl': userImageUrl,
+      ECommerceApp.userCartList: ['garbageValue']
     });
 
     await ECommerceApp.sharedPreferences.setString('uid', user.uid);

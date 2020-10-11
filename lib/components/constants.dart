@@ -13,3 +13,5 @@ const colorBackgroundDefault = Color(0XFF5c8d89);
 
 // images
 const welcomeImage = 'assets/images/welcome.svg';
+const loginImage = 'assets/images/login.svg';
+
