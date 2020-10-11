@@ -62,7 +62,7 @@ class _RegistrationState extends State<Registration> {
             ),
             SizedBox(height: 8.0),
             Form(
-              key: _formKey,
+              key: _formKey, 
               child: Column(
                 children: [
                   SizedBox(
